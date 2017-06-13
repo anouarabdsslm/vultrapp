@@ -52,6 +52,8 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
+    'vultr_api' => env('VULTR_API_URL', 'https://api.vultr.com/v1/'),
+    'vultr_api_key' => env('VULTR_API_KEY', 'U57ZRCWVOZJUNZCFZDSK74RN5YOQ2N'),
 
     /*
     |--------------------------------------------------------------------------
